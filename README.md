@@ -24,7 +24,27 @@ I love playing football, dirt bike racing  and solving puzzles.
 
 <p align='center'>
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aimkeys-Sir&layout=compact&title_color=ffffff&icon_color=2A75CF&text_color=daf7dc&bg_color=191919">
-  
+    
+  <!--START_SECTION:waka-->
+  name: Waka Readme
+on:
+  workflow_dispatch: # for manual workflow trigger
+  schedule:
+    - cron: '0 0 * * *' # runs at every 12AM UTC
+jobs:
+  update-readme:
+    name: WakaReadme DevMetrics
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          # following flags are required, only if this is not on
+          # profile readme, remove the leading `#` to use them
+          #GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          #REPOSITORY: <gh_username/gh_username>
+<!--END_SECTION:waka-->
+
 </p>   
 <p align="center">
  <img src="https://github-readme-stats.vercel.app/api?username=Aimkeys-Sir&show_icons=true&theme=radical" width="405"/><img src="https://github-readme-streak-stats.herokuapp.com/?user=Aimkeys-Sir&ring=fad02c&fire=fad02c&currStreakLabel=fad02c&background=1F222E&hide_border=true&sideNums=fff6ea&sideLabels=fff6ea&dates=fff6ea&currStreakNum=fff6ea" width="405"/>

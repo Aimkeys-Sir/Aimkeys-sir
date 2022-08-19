@@ -25,24 +25,7 @@ I love playing football, dirt bike racing  and solving puzzles.
 <p align='center'>
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aimkeys-Sir&layout=compact&title_color=ffffff&icon_color=2A75CF&text_color=daf7dc&bg_color=191919">
     
-  <!--START_SECTION:waka-->
-  name: Waka Readme
-on:
-  workflow_dispatch: # for manual workflow trigger
-  schedule:
-    - cron: '0 0 * * *' # runs at every 12AM UTC
-jobs:
-  update-readme:
-    name: WakaReadme DevMetrics
-    runs-on: ubuntu-latest
-    steps:
-      - uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          # following flags are required, only if this is not on
-          # profile readme, remove the leading `#` to use them
-          #GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          #REPOSITORY: <gh_username/gh_username>
+ <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
 </p>   

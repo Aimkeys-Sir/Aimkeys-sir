@@ -33,5 +33,5 @@ I love playing football, dirt bike racing  and solving puzzles.
  <img src="https://github-readme-stats.vercel.app/api?username=Aimkeys-Sir&show_icons=true&theme=radical" width="405"/><img src="https://github-readme-streak-stats.herokuapp.com/?user=Aimkeys-Sir&ring=fad02c&fire=fad02c&currStreakLabel=fad02c&background=1F222E&hide_border=true&sideNums=fff6ea&sideLabels=fff6ea&dates=fff6ea&currStreakNum=fff6ea" width="405"/>
 </p>
 
-## :rainbow: Good luck with your day!
+##  Good luck with your day!
 <p align="left"> <img src=https://komarev.com/ghpvc/?username=Aimkeys-Sir&color=blueviolet alt=Aimkeys-Sir/></p>
